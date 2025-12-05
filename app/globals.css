@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@theme {
+    --color-rosa: #F599C4;
+    --color-rosa-claro: #f0b7d2;
+    --color-rosa-sclaro: #edbcd3;
+    --color-cinza-claro: #efeeee;
+    --color-rosa-claro: #f0b7d2;
+  }
+  
+  @layer utilities {
+    .bg-rosa {
+      background-color: var(--color-rosa);
+    }
+    .text-rosa {
+      color: var(--color-rosa);
+    }
+  }
+
+  @keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+ 
