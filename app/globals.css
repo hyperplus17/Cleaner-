@@ -8,6 +8,7 @@
     --color-rosa-sclaro: #edbcd3;
     --color-cinza-claro: #efeeee;
     --color-rosa-claro: #f0b7d2;
+    --breakpoint-3xl: 120rem;
   }
   
   @layer utilities {

@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <div className="flex h-screen bg-white font-sans flex-col">
       <div className="flex flex-col w-full p-5">
-      <div className="bg-white w-full mt-35 justify-center flex">
+      <div className="bg-white w-full lg:mt-35 mt-55 justify-center flex">
         <p className="text-rosa text-[50px] font-extrabold">Cleaner+</p>
       </div>
       <div className="mb-3 w-full justify-center flex">
-      <p className="text-rosa text-[25px] font-medium">Junte-se nessa nova jornada</p>
+      <p className="text-rosa lg:text-[25px] text-[23px] font-medium">Junte-se a essa nova jornada</p>
       </div>
-      <div className="w-full absolute left-0 top-[50%] flex justify-center">
+      <div className="w-full absolute left-0 lg:top-[50%] top-[60%] flex justify-center">
       <div className="aspect-[2/1] border-black border-8 w-[300px] h-[570px] rounded-3xl">
       <Image 
       width={400} 
@@ -22,10 +22,10 @@ export default function Home() {
       </div>
       </div>
       </div>
-        <div className="bg-rosa-sclaro mt-79 w-full px-40 z-1000">
-        <p className="text-4xl font-extrabold text-white mt-10 text-center w-full mb-3">Encontrar diaristas nunca foi tão fácil</p>
-        <p className="text-2xl font-medium text-center text-white mb-5 w-full">Com o cleaner+ você encontra profissionais de limpeza perto de você <br/> de forma prática e segura</p>
-        <div className="flex flex-row gap-20 w-full justify-center">
+        <div className="bg-rosa-sclaro lg:mt-79 mt-95 w-full lg:px-40 px-7 z-1000">
+        <p className="lg:text-4xl text-[25px] lg:font-extrabold font-bold text-white mt-10 text-center w-full mb-3">Encontrar diaristas nunca foi tão fácil</p>
+        <p className="lg:text-2xl text-[15px] font-medium text-center text-white lg:mb-5 mb-1 w-full">Com o cleaner+ você encontra profissionais de limpeza perto de você <br/> de forma prática e segura</p>
+        <div className="flex flex-row lg:gap-20 gap-10 w-full justify-center">
           <div className="w-[178px] h-[272px]">
         <Image 
       width={400} 
@@ -45,11 +45,11 @@ export default function Home() {
       src={"Group 48.svg"}/>
       </div>
         </div>
-        <p className="text-5xl font-extrabold text-white mt-10 text-center w-full mb-10">Faça o pré-cadastro e ganhe um brinde🎁</p>
-        <p className="text-3xl font-bold text-center text-white mb-3 w-full">O que é o pré-cadastro?</p>
-        <p className="text-2xl font-medium text-center text-white mb-10 w-full">O pré-cadastro é um pequeno formulário que nos ajuda a responder varias questões para a gente vazer o lançamento perfeito para você e ainda nos vamos desponibilizar para as 50 primeiras pessoas que responderem um brinde para agradecer pela ajuda</p>
-        <p className="text-3xl font-bold text-center text-white mb-3 w-full">Como fazer o pré-cadastro</p>
-        <p className="text-2xl font-medium text-center text-white mb-5 w-full">Para fazer ele é muito simples apenas preencher o formulario no botão pré-cadastro feito ele vamos mandar um email em até 3 dias para você para explicar mais sobre a cleaner+</p>
+        <p className="lg:text-5xl text-[30px] font-extrabold text-white mt-10 text-center w-full lg:mb-10 mb-5">Faça o pré-cadastro e ganhe um brinde🎁</p>
+        <p className="lg:text-3xl text-[23px] font-bold text-center text-white mb-3 w-full">O que é o pré-cadastro?</p>
+        <p className="lg:text-2xl text-[15px] font-medium text-center text-white mb-10 w-full">O pré-cadastro é um pequeno formulário que nos ajuda a responder várias questões para que possamos fazer o lançamento perfeito para você. Além disso, iremos disponibilizar um brinde para as 50 primeiras pessoas que responderem — uma forma de agradecermos pela ajuda!</p>
+        <p className="lg:text-3xl text-[23px] font-bold text-center text-white mb-3 w-full">Como fazer o pré-cadastro</p>
+        <p className="lg:text-2xl text-[15px] font-medium text-center text-white mb-5 w-full">É muito simples! Basta preencher o formulário no botão “Pré-cadastro”. Após o envio, iremos mandar um e-mail em até 3 dias explicando tudo sobre a Cleaner+.</p>
         <div className="w-full flex justify-center mb-10">
       <button className=" bg-white hover:bg-cinza-claro cursor-pointer text-rosa-sclaro font-extrabold px-5 py-2 rounded-lg">Pré-cadastro</button>
       </div>
