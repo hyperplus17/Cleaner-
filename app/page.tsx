@@ -4,14 +4,14 @@ export default function Home() {
   return (
     <div className="flex h-screen bg-white font-sans flex-col">
       <div className="flex flex-col w-full p-5">
-      <div className="bg-white w-full lg:mt-35 mt-55 justify-center flex">
-        <p className="text-rosa text-[50px] font-extrabold">Cleaner+</p>
+      <div className="bg-white w-full 3xl:mt-100 lg:mt-35 mt-5 justify-center flex">
+        <p className="text-rosa 3xl:text-[75px] text-[50px] font-extrabold">Cleaner+</p>
       </div>
       <div className="mb-3 w-full justify-center flex">
-      <p className="text-rosa lg:text-[25px] text-[23px] font-medium">Junte-se a essa nova jornada</p>
+      <p className="text-rosa lg:text-[25px] 3xl:text-[35px] text-[23px] font-medium">Junte-se a essa nova jornada</p>
       </div>
-      <div className="w-full absolute left-0 lg:top-[50%] top-[60%] flex justify-center">
-      <div className="aspect-[2/1] border-black border-8 w-[300px] h-[570px] rounded-3xl">
+      <div className="w-full absolute left-0 3xl:top-[61%] lg:top-[50%] top-[25%] flex justify-center">
+      <div className="aspect-[2/1] border-black border-8 3xl:w-[450px] 3xl:h-[800px]  w-[300px] h-[570px] rounded-3xl">
       <Image 
       width={400} 
       height={150} 
@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       </div>
       </div>
-        <div className="bg-rosa-sclaro lg:mt-79 mt-95 w-full lg:px-40 px-7 z-1000">
+        <div className="bg-rosa-sclaro 3xl:mt-123 lg:mt-79 mt-107 w-full lg:px-40 px-7 z-1000">
         <p className="lg:text-4xl text-[25px] lg:font-extrabold font-bold text-white mt-10 text-center w-full mb-3">Encontrar diaristas nunca foi tão fácil</p>
         <p className="lg:text-2xl text-[15px] font-medium text-center text-white lg:mb-5 mb-1 w-full">Com o cleaner+ você encontra profissionais de limpeza perto de você <br/> de forma prática e segura</p>
         <div className="flex flex-row lg:gap-20 gap-10 w-full justify-center">
