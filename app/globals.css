@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
+
 @tailwind utilities;
+
 
 @theme {
     --color-rosa: #F599C4;
@@ -9,6 +11,7 @@
     --color-cinza-claro: #efeeee;
     --color-rosa-claro: #f0b7d2;
     --breakpoint-3xl: 120rem;
+    --font-open: 'Open Sans', sans-serif;
   }
   
   @layer utilities {
